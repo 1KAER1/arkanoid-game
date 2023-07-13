@@ -1,2 +1,1 @@
-# arkanoid-game
-Created with CodeSandbox
+A simple arkanoid game created using plain Javascript, HTML and CSS
