@@ -1,0 +1,32 @@
+#KacperCanvas {
+  border: 1px solid black;
+}
+
+body {
+  margin: 0px;
+  padding: 20px;
+  font-family: sans-serif;
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.9),
+      rgba(107, 107, 107, 0.9)
+    )
+    fixed;
+}
+
+canvas {
+  background-image: linear-gradient(
+    rgba(156, 156, 156, 0.9),
+    rgba(168, 168, 168, 0.6)
+  );
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 15px;
+}
+
+img {
+  display: none;
+}

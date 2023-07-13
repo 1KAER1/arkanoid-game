@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #KacperCanvas {
+        border: 1px solid black;
+      }
+
+      body {
+        margin: 0px;
+        padding: 20px;
+        font-family: sans-serif;
+        background: linear-gradient(
+            to top,
+            rgba(51, 11, 53, 0.9),
+            rgba(35, 25, 39, 0.9)
+          )
+          fixed;
+      }
+
+      canvas {
+        background: linear-gradient(
+            to top,
+            rgba(15, 4, 15, 0.9),
+            rgba(105, 60, 122, 0.9)
+          )
+          fixed;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border-radius: 15px;
+      }
+
+      img {
+        display: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <img id="ballImage" src="assets/images/ball.png" />
+    <img id="brick" src="assets/images/brick.png" />
+    <img id="brickB" src="assets/images/blue_brick.png" />
+    <img id="paddleImg" src="assets/images/paddle.png" />
+    <canvas id="KacperCanvas" width="800" height="600"></canvas>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({
+        google: {
+          families: ["Germania One"]
+        }
+      });
+    </script>
+    <script type="module" src="src/index.js"></script>
+  </body>
+</html>
